@@ -38,6 +38,7 @@ const Login = (props) => {
     e.preventDefault();
 
     loginUser({ variables });
+    console.log(variables.username, variables.password);
   };
   return (
     <Row className="bg-white py-5 justify-content-center">
